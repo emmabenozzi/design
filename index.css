@@ -345,6 +345,11 @@ padding: 0 15px ;
     color: transparent;
 }
 
+.content a5 {
+    font-family: 'karrik';
+    font-size: 20pt;
+    line-height: 20pt;
+}
 
 /* Style the collapsible slideshow container */
 .slideshow-container {
