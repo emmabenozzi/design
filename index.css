@@ -24,13 +24,13 @@
 }
 
 @font-face {
-  font-family: 'karrik';
-  src: url('fonts/Karrik-Regular.woff') format('woff');
+  font-family: 'edge';
+  src: url('fonts/NewEdge666-RegularRounded.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'karrikit';
-  src: url('fonts/Karrik-Italic.woff') format('woff');
+  font-family: 'edgeit';
+  src: url('fonts/NewEdge666-RegularSlanted.otf') format('opentype');
 }
 
 
@@ -93,7 +93,7 @@ html.body4 button {
     width: auto;
     top: 17.5%;
     left: 1.5%;
-    font-family: 'karrik';
+    font-family: 'edge';
     font-size: 1.1vw;
     line-height: 2.3vh;
     position: fixed;
@@ -101,11 +101,11 @@ html.body4 button {
 }
 
 .abouttwo {
-    overflow: visible;
+    overflow: hide;
     width: auto;
     top: 17.5%;
     left: 1.5%;
-    font-family: 'karrik';
+    font-family: 'edge';
     font-size: 1.1vw;
     line-height: 2.3vh;
     position: fixed;
@@ -116,7 +116,7 @@ html.body4 button {
     width: auto;
     left: 1.5%;
     bottom: 0%;
-    font-family: 'karrik';
+    font-family: 'edge';
     font-size: 1.1vw;
     line-height: 2.3vh;
     position: fixed;
@@ -145,18 +145,19 @@ display:none;
     height: 100%;
     left: 2%;
     top: 0%;
-    font-family: 'karrik';
+    font-family: 'edge';
     color: black;
     font-size: 4.7vw;
     line-height: 3.5vh;
 }
   
 .contact2{
+    display: none;
     width: auto;
     height: 14%;
     left: 2%;
     top: 4%;
-    font-family: 'karrik';
+    font-family: 'edge';
     color: black;
     font-size: 4.7vw;
     line-height: 3.5vh;
@@ -212,7 +213,7 @@ button {
   and (-webkit-min-device-pixel-ratio: 2) { 
 button {
     color: #ffcff1;
-    font-family: 'karrik';
+    font-family: 'edge';
     font-size: 3vh;
     border: 1px solid transparent;
     border-radius: 20px;
@@ -221,7 +222,7 @@ button {
 }
 
 button:hover {
-    font-family: 'karrik';
+    font-family: 'edge';
 }
 
 .collapsible {
@@ -262,7 +263,7 @@ button:hover {
 }
 
 .collapsible a{
-    font-family: 'karrik';
+    font-family: 'edge';
     font-size: 4vh;
 }
 
@@ -314,31 +315,32 @@ padding: 0 15px ;
 }
       
     .content a1 {
-    font-family: 'karrik';
+    font-family: 'edge';
     font-size: 13pt;
 }
       
       .content a3 {
-    font-family: 'karrikit';
+    font-family: 'edgeit';
           font-size: 13pt;
 }
 }
 
 .content a {
-    font-family: 'karrik';
+    font-family: 'edge';
 }
 
 .content a1 {
-    font-family: 'karrik';
+    font-family: 'edge';
 }
 
 .content a2 {
-    font-family: 'karrik';
+    font-family: 'edge';
 /*    color: #0099cc;*/
 }
 
 .content a3 {
-    font-family: 'karrikit';
+    font-family: 'edge';
+    line-height: 12pt;
 }
 
 .content a4 {
@@ -346,7 +348,7 @@ padding: 0 15px ;
 }
 
 .content a5 {
-    font-family: 'karrik';
+    font-family: 'edge';
     font-size: 20pt;
     line-height: 20pt;
 }
