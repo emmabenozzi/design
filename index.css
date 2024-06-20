@@ -197,7 +197,7 @@ display:none;
 /* Style the button that is used to open and close the collapsible content */
 
 button {
-    color: #ffcff1;
+    
     font-family: 'egypt';
     font-size: 4vh;
     border: none;
@@ -212,9 +212,9 @@ button {
   and (max-device-width: 700px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 button {
-    color: #ffcff1;
+    
     font-family: 'edge';
-    font-size: 3vh;
+    font-size: 2.5vh;
     border: 1px solid transparent;
     border-radius: 20px;
     background-color: mediumseagreen;
@@ -252,7 +252,7 @@ button:hover {
     padding-left: 3%;
     padding-bottom: 1.5%;
     width: 100%;
-    font-size: 19pt;
+    font-size: 5.5vw;
     text-align: center;
     outline: none;
     z-index: 9999;
